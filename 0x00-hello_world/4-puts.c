@@ -2,7 +2,7 @@
 int main ()
 {
 /* print Programming is like building a multilingual puzzle*/
-puts ("\"Programming is like building a multilingual"); 
+puts ("\"Programming is like building a multilingual puzzle"); 
 /*the program should end with the value 0*/
 return 0;
 }
