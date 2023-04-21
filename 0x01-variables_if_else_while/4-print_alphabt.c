@@ -3,23 +3,20 @@
 #include <time.h>
 /**
  * main - Entry point
- * a program that prints the alphabet in lowercase and uppercase
+ * a program that prints the alphabet in lowercase withour e q
  * Return: 0
  **/
 int main(void)
 {
-char n, x;
+char n;
 n = 'a';
-x = 'A';
 while (n <= 'z')
 {
-putchar(n);
-n++;
-}
-while (x <= 'Z')
+if (n != 'e' && n != 'q')
 {
-putchar(x);
-x++;
+putchar(n);
+}
+n++;
 }
 putchar ('\n');
 return (0);
