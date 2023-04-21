@@ -11,8 +11,6 @@ int main(void)
 char n;
 n = '0';
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
 while (n <= '9')
 {
 putchar(n);
