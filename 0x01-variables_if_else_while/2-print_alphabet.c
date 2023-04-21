@@ -10,12 +10,11 @@ int main(void)
 {
 char n;
 n = 'a';
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-do {
+while (n <= 'z')
+{
 putchar(n);
 n++;
-} while (n <= 'z');
-putchar ("\n");
+}
+putchar ('\n');
 return (0);
 }
