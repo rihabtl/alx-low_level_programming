@@ -2,17 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * a program that prints the alphabet in lowercase
- * Return: 0
- **/
+ *  * main - Entry point
+ *   * a program that prints reverse alphabet in lowercase
+ *    * Return: 0
+ *     **/
 int main(void)
 {
 char n;
 n = 'z';
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
 while (n >= 'a')
 {
 putchar(n);
