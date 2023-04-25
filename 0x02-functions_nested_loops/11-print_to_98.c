@@ -11,26 +11,22 @@ int x, y;
 
 if (n <= 98)
 {
-x = n;
-while (x <= 98)
+for (x = n; x <= 98; x++)
 {
 if (x != 98)
 printf("%d, ", x);
 else if (x == 98)
 printf("%d\n", x);
-x = n;
 }
 }
 else if (n >= 98)
 {
-y = n;
-while (y >= 98)
+for (y = n; y >= 98; y--)
 {
 if (y != 98)
 printf("%d, ", y);
 else if (y == 98)
 printf("%d\n", y);
-y--;
 }
 }
 }
