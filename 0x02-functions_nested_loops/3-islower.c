@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks lowercase
- *
+ * c is the variable
  * Return: 1 if lowercase if not 0
  */
 
