@@ -1,50 +1,53 @@
 #include "main.h"
 
 /**
- * print_times_table - prints  time tables
- * @n: number of the times table
- */
-
+* print_times_table - prints the time tables
+* @n: number of the times table
+*/
 void print_times_table(int n)
 {
+int a, b, c;
 
-int x, y, z;
 
 if (n >= 0 && n <= 15)
 {
-for (x = 0; x <= n; x++)
+for (a = 0; a <= n; a++)
 {
-for (y = 0; y <= n; y++)
+for (b = 0; b <= n; b++)
 {
-z = x * y;
-if (y == 0)
+c = a * b;
+if (b == 0)
 {
-_putchar(z + '0');
-} else if (z < 10 && y != 0)
-{
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(' ');
-_putchar(z + '0');
-} 
-else if (z > 100)
-{
-_putchar(',');
-_putchar(' ');
-_putchar((z / 100) + '0');
-_putchar((z % 10) + '0');
+_putchar(c + '0');
 }
-else if (z >= 10 && z < 100)
+else if (c < 10 && b != 0)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar((z / 10) + '0');
-_putchar((z % 10) + '0');
-} 
+_putchar(' ');
+_putchar(c + '0');
+}
+else if (c >= 10 && c < 100)
+
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar((c / 10) + '0');
+_putchar((c % 10) + '0');
+}
+else if (c >= 100)
+{
+_putchar(',');
+_putchar(' ');
+_putchar((c / 100) + '0');
+_putchar(((c / 10) % 10) + '0');
+_putchar((c % 10) + '0');
+}
 }
 _putchar('\n');
 }
 }
 }
+	
