@@ -7,7 +7,7 @@
 
 void print_number(int n)
 {
-unsigned int i = 1;
+int i = 1;
 
 while (n / i >= 10 || n / i <= -10)
 {
