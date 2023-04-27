@@ -2,26 +2,21 @@
 
 /**
  * print_number - prints an integer
- * @n: integer to be printed
+ * @n: input integer parameter
  */
 
 void print_number(int n)
 {
-int i = 1;
-
-while (n / i >= 10 || n / i <= -10)
-{
-i = i * 10;
-}
+unsigned int i = n;
 
 if (n < 0)
 {
-_putchar('-');
-n = -n;
+_putchar(45);
+i = -i;
 }
-while (i != 0)
+if (i / 10)
 {
-_putchar((n / i) % 10 + '0');
-i /= 10;
+print_number(i / 10);
 }
+_putchar(i % 10 + '0');
 }
