@@ -15,26 +15,19 @@ else
 {
 int i, j;
 
-i = 1;
-
-while (i <= size)
+for (i = 1; i <= size; i++)
 {
-j = 1;
-
-while(j < size)
+for (j = i; j < size; j++)
 {
 _putchar(' ');
-j++;
 }
-j = 1;
 
-while (j <= i)
+for (j = 1; j <= i; j++)
 {
 _putchar('#');
-j++;
 }
+
 _putchar('\n');
-i++;
 }
 }
 }
