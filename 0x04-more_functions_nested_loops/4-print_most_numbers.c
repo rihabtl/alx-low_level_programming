@@ -3,17 +3,17 @@
 /**
  * print_most_numbers - print most numbers
  *
- * return: 
+ * return:
  */
 
 void print_most_numbers(void)
 {
-char c;
+char ch;
 
-for (c = '0'; c <= '9'; c++)
+for (ch = '0'; ch <= '9'; ch++)
 {
-if (!(c == '2' || c == '4'))
-_putchar(c);
+if (!(ch == '2' || ch == '4'))
+_putchar(ch);
 }
 _putchar('\n');
 }
