@@ -7,13 +7,12 @@
  * Return: prints string
  */
 
-void puts2(char *s)
+void puts2(char *str)
 {
 int L = 0;
 int a = 0;
-char *b = s;
+char *b = str;
 int i;
-    
 while (*b != '\0')
 {
 b++;
@@ -24,7 +23,7 @@ for (i = 0; i <= a; i++)
 {
 if (i % 2 == 0)
 {
-_putchar(s[i]);
+_putchar(str[i]);
 }
 }
 _putchar('\n');
