@@ -20,7 +20,7 @@ i++;
 }
 n = L / 2;
 if (L % 2 != 0)
-n = ((L + 1)/2);
+n = ((L + 1) / 2);
 for (i = n; str[i] != '\0'; i++)
 _putchar(str[i]);
 _putchar('\n');
