@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * string_toupper - changes all lowercase letters of a string to uppercase
- * @p: pointer
- * Return: p
- */
+* string_toupper - changes all lowercase letters of a string to uppercase
+* @p: pointer
+* Return: p
+*/
 
 char *string_toupper(char *p)
 {
