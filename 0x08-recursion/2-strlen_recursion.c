@@ -12,10 +12,10 @@ int L;
 
 L = 0;
 
-if(*s)
+if (*s)
 {
 L++;
 L = L + _strlen_recursion(s + 1);
 }
-return(L);
+return (L);
 }
