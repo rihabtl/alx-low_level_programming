@@ -13,10 +13,10 @@ int r;
 
 r = x;
 
-if(y == 0)
-return(1);
+if (y == 0)
+return (1);
 else if (y < 0)
 return (-1);
-r = r *_pow_recursion(x,y-1);
+r = r *_pow_recursion(x, y - 1);
 return (r);
 }
