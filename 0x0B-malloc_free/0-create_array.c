@@ -15,12 +15,11 @@ unsigned int x;
 char *st;
 
 st = malloc(sizeof(char) * size);
+if (size == 0 || st == NULL)
+return (NULL);
 x = 0;
 while (x < size)
 {
-if (size == 0 || st == NULL)
-return (NULL);
-else
 st[x] = c;
 x++;
 }
