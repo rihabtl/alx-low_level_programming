@@ -20,6 +20,7 @@ while (x < size)
 {
 if (size == 0 || st == NULL)
 return (NULL);
+else
 st[x] = c;
 x++;
 }
