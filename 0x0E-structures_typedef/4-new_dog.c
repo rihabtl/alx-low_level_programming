@@ -4,7 +4,7 @@
 /**
  * _strlen - returns the length of the string
  * @str: string
- * @Return: the lenght of the string
+ * Return: the lenght of the string
  */
 
 int _strlen(const char *str)
@@ -16,7 +16,7 @@ return (L);
 }
 
 /**
- * _strcopy - copies the string pointed to src
+ * _strcpy - copies the string pointed to src
  * @dest: destination
  * @src: source
  * Description: copy
