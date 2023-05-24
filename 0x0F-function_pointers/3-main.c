@@ -5,7 +5,7 @@
 
 /**
  * main - Prints the result of operations
- * @argc: counter arguments 
+ * @argc: counter arguments
  * @argv: array of arguments
  * Return: 0
  */
@@ -22,7 +22,7 @@ exit(98);
 a = atoi(argv[1]);
 operation = argv[2];
 b = atoi(argv[3]);
-if (!get_op_func(operation) || operation[1] != '\0') 
+if (!get_op_func(operation) || operation[1] != '\0')
 {
 printf("Error\n");
 exit(99);
