@@ -19,5 +19,5 @@ for (i = 0; i < n; i++)
 S += va_arg(args, int);
 
 va_end(args);
-return S;
+return (S);
 }
